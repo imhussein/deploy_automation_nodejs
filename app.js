@@ -1,5 +1,5 @@
 const shell = require("shelljs");
-const repoName = process.argv[2];
+const repoName = process.argv[4];
 const version = process.argv[3];
 const fs = require("fs");
 

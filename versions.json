@@ -1,1 +1,11 @@
-{"node-react-blog-backend":{"version":100},"node-react-blog-frontend":{"version":22},"node-react-blog-nginx":{"version":3}}
+{
+  "node-react-blog-backend": {
+    "version": 200
+  },
+  "node-react-blog-frontend": {
+    "version": 22
+  },
+  "node-react-blog-nginx": {
+    "version": 3
+  }
+}
