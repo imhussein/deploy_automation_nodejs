@@ -8,8 +8,8 @@ const parsedData = JSON.parse(data);
 
 for (let item in parsedData) {
   if (item === repoName) {
-    repos[item]["version"] = +version;
-    fs.writeFileSync("versions.json", JSON.stringify(repos));
+    parsedData[item]["version"] = +version;
+    fs.writeFileSync("versions.json", JSON.stringify(parsedData));
   }
 }
 
